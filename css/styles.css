@@ -1,10 +1,17 @@
 html{
     border: 5px dotted red;
     height: 100%;
+    background-color: #0f0f0f
 }
 #index-body{
-    border: 5px dotted black;
+    border: 5px dotted white;
     height: inherit;
     display: grid;
     grid-template-rows: 25% auto 25%;
+}
+
+.border{
+    display: flex;
+    height: max-content;
+    background-color: black
 }
