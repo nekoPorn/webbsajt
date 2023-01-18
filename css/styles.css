@@ -1,0 +1,10 @@
+html{
+    border: 5px dotted red;
+    height: 100%;
+}
+#index-body{
+    border: 5px dotted black;
+    height: inherit;
+    display: grid;
+    grid-template-rows: 25% auto 25%;
+}
