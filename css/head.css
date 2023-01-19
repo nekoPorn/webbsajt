@@ -7,12 +7,15 @@
     justify-items: center;
     align-items: center;
 }
-.tabs{
+.tabs, a:link, a:visited{
+    text-decoration: none;
     display: flex;
   justify-content: center;
-color: rgba(255, 255, 255, 0.749);
-
+color: rgba(255, 255, 255, 0.78);
+text-shadow: 1px 1px rgb(0 0 0 / 31%);
 }
+
+
 #logo{
     display: flex;
     justify-content: center;
