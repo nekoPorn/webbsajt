@@ -1,0 +1,25 @@
+#meny{
+    height: 100%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns:repeat(8, 12.5%);
+    grid-template-rows: 50% 20%;
+    justify-items: center;
+    align-items: center;
+}
+.tabs{
+    display: flex;
+  justify-content: center;
+color: rgba(255, 255, 255, 0.749);
+
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+border-bottom: 2px solid white;
+
+grid-row: 1;
+grid-column: 1/9;
+
+}
