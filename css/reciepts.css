@@ -18,3 +18,61 @@ height: 100%;
     justify-items: center;
     align-items: center;
 }
+
+/*recept länkar*/
+
+.receptlink{
+    height: inherit;
+}
+
+.receptBild{
+    width: 300px;
+    border: 5px solid #12bbdc;
+    border-radius: 40%;
+}
+
+/* recept sidans layout*/
+
+.receptBKG{
+   
+    margin: auto;
+    width: 90%;
+    min-height: 50%;
+    height: auto;
+    background-color: white;
+    border-radius: 2%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.receptet{
+display: grid;
+grid-template-columns:repeat(10, 10%);
+justify-content: center;
+
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    font-variant: normal;
+    
+
+}
+.ingrediencer{
+grid-column: 1/4;
+
+}
+
+.instruktioner{
+grid-column: 5/11;
+align-self: center;
+
+}
+
+.foto{
+    width: inherit;
+    height: inherit;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5%;
+}
